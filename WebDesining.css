@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header portion */
+.header{
+    /* background-color: tomato; */
+    height: 650px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#image{
+    background: url(img/top-view-image-young-african-man-sitting-coworking.jpg);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    position: relative;
+}
+.introducingdp{
+    height: 272px;
+    width: 30%;
+    background-color: rgb(255 255 255 / 28%);
+    position: absolute;
+    float: right;
+    box-sizing: border-box;
+    padding: 34px;
+    margin: 207px 0 0 900px;
+}
+.IDP{
+    color: rgb(75, 75, 154);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+.text4{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+    height: inherit;
+    width: 19%;
+    position: absolute;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgb(255 255 255 / 28%);
+    /* filter: contrast(0.5); */
+}
+/* box-1  */
+.box1{
+    height: 184px;
+    width: auto;
+    /* background: #000; */
+}
+.whiteborder1{
+    border: 2px solid white;
+    height: 88px;
+    width: 136px;
+    position: relative;
+    top: 32px;
+    left: 47px;
+}
+.whiteborder2{
+    border: 2px solid white;
+    height: 88px;
+    width: 136px;
+    position: absolute;
+    top: 41px;
+    left: 56px;
+}
+.DREAMPULSE{
+    color: white;
+    padding: 24px 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/* box-2  */
+.box2{
+    height: 305px;
+    width: auto;
+    /* background: rebeccapurple; */
+}
+.nav{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: end;
+    padding: 46px 99px 0 0;
+    line-height: 35px;
+}
+/* box-3  */
+.box3{
+    height: 161px;
+    width: auto;
+    /* background: purple; */
+    padding: 48px 0 0 37px;
+    box-sizing: border-box;
+}
+.fa-facebook-f{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 8px 12px 8px 11px;
+    margin: 3px;
+}
+.fa-twitter{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 8px 10px 8px 9px;
+    margin: 3px;
+}
+.fa-dribbble{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 8px 10px 8px 9px;
+    margin: 3px;
+}
+.fa-linkedin-in{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 8px 10px 8px 9px;
+    margin: 3px;
+}
+.copyrightline{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 12px 0 0 -45px;
+    font-size: small;
+}
+/*   main   */
+.main{
+    background-color: aqua;
+    height: 538px;
+    width: 100%;
+    display: flex;
+}
+.graybox{
+    width: 19%;
+    height: inherit;
+    background-color: gray;
+}
+.whitebox{
+    width: 81%;
+    height: inherit;
+    background-color: white;
+    display: flex;
+}
+.aboutusbox{
+    height: inherit;
+    width: 50%;
+    /* background: red; */
+}
+/* icon1 */
+.aboutusbox i{
+    color: #515188;
+    padding: 75px 0 0 67px;
+    font-size: 94px;
+}
+.Aboutus{
+    color: rgb(75, 75, 154);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 79px 0 0 76px;
+    font-size: 22px;
+}
+.text1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 38px 0 0 76px;
+    color: gray;
+}
+.companyprofilbox{
+    height: inherit;
+    width: 50%;
+    /* background: blue; */
+}
+.companyprofilbox i{
+    padding: 75px 0 0 67px;
+    font-size: 94px;
+    color: #515188;
+}
+.companyprofile{
+    color: rgb(75, 75, 154);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 79px 0 0 46px;
+    font-size: 22px;
+}
+.text2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 38px 0 0 46px;
+    color: gray;
+}
+/*  main1  */
+#main1{
+    height: 500px;
+    width: 100%;
+    background: thistle;
+    display: flex;
+    position: relative;
+}
+.borders{
+    height: inherit;
+    width: 81%;
+    background-color: white;
+}
+.border1{
+    /* background-color: teal; */
+    border: 3px solid grey;
+    height: 410px;
+    width: 920px;
+    position: absolute;
+    margin: 54px 0 0 83px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 92px;
+    box-sizing: border-box;
+}
+.image1{
+    height: 211px;
+    width: 191px;
+    /* background-color: palegreen; */
+    background-image: url(https://images.pexels.com/photos/6447058/pexels-photo-6447058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.image2{
+    height: 211px;
+    width: 191px;
+    background-color: palegreen;
+    background-image: url(https://media.istockphoto.com/id/1468577914/photo/a-teenage-girl-applies-sunscreen-while-skiing.jpg?b=1&s=170667a&w=0&k=20&c=sVh4F-apYI9t6Gm95Gzy0ki9ZqcXamxAN4mAMK7XGhk=);
+    background-size: cover;
+}
+.image3{
+    height: 211px;
+    width: 191px;
+    background-color: palegreen;
+    background-image: url(img/mink-mingle-96JD67agngE-unsplash.jpg);
+    background-size: cover;
+}
+.image4{
+    height: 211px;
+    width: 191px;
+    background-color: palegreen;
+    background-image: url(img/averie-woodard-Av_NirIguEc-unsplash.jpg);
+    background-size: cover;
+}
+.border2{
+    /* background-color: thistle; */
+    border: 3px solid grey;
+    height: 410px;
+    width: 920px;
+    position: absolute;
+    margin: 42px 0 0 71px;
+    padding: 52px 0 0 42px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 75, 154);
+    font-size: 23px;
+}
+/* OUR CLIENTS  */
+.ourclient{
+    height: 230px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.content{
+    height: inherit;
+    width: 81%;
+    /* background: peru; */
+    box-sizing: border-box;
+    padding: 72px;
+    padding-left: 100px;
+}
+#OC{
+    color: rgb(75, 75, 154);
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#text3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    padding: 26px 185px 0 0;
+}
+/* Company logo */
+.companylogo{
+    height: 360px;
+    width: 100%;
+    background: white;
+    display: flex;
+}
+.eightbox{
+    height: inherit;
+    width: 81%;
+    /* background: orchid; */
+    box-sizing: border-box;
+    padding-top: 53px;
+}
+.contentbox{
+    height: 260px;
+    width: 91%;
+    /* background: #000; */
+    box-sizing: border-box;
+    margin: auto
+    
+}
+.Row1{
+    height: 50%;
+    width: auto;
+    /* background: powderblue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.myob{
+    height: 100%;
+    width: 23%;
+    /* background: #000; */
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MYOB_Logo.png/1200px-MYOB_Logo.png);
+    background-size: contain;
+    border: 2px solid gray;
+}
+.belimo{
+    height: 100%;
+    width: 23%;
+    /* background: #000; */
+    background-image: url(https://m.media-amazon.com/images/I/412tJ0ECeyL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFIVE%2CBottomLeft%2C360%2C-6_SR600%2C315_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg);
+    background-size: contain;
+    border: 2px solid gray;
+
+}
+.lifegroups{
+    height: 100%;
+    width: 23%;
+    /* background: #000; */
+    background-image: url(https://www.pngkit.com/png/detail/208-2087205_life-groups-group-health.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid gray;
+
+}
+.lilly{
+    height: 100%;
+    width: 23%;
+    /* background: #000; */
+    background-image: url(https://1000logos.net/wp-content/uploads/2020/03/Lilly-Logo.jpg);
+    background-size: contain;
+    border: 2px solid gray;
+
+}
+.Row2{
+    height: 50%;
+    width: auto;
+    /* background: peru; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 17px;
+}
+.citrus{
+    height: 100%;
+    width: 23%;
+    /* background: #000;     */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqF-GcMMvx19Gl3ZV13PevZgVRs8MOZ_dvbbnEc-abl6m98o-lDlC36kgHm7iJ9XzVo7w&usqp=CAU);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: #fff; */
+    border: 2px solid gray;
+
+}
+.Trustly{
+    height: 100%;
+    width: 23%;
+    /* background: #000; */
+    background-image: url(https://media.cinkciarz.pl/grafiki/trustly-payment-method.png);
+    background-size: contain;
+    border: 2px solid gray;
+
+}
+.oldendoroff{
+    height: 100%;
+    width: 23%;
+    /* background: #000; */
+    background-image: url(https://www.tradewindsjobs.com/images/636/default/fa1edb07-0393-409d-8c75-72f5f8d05f7f_oldendorffx23gif.gif);
+    background-size: contain;
+    border: 2px solid gray;
+
+}
+.grabyo{
+    height: 100%;
+    width: 23%;
+    /* background: #000; */
+    background-image: url(https://d1.awsstatic.com/partner-network/partner_marketing_web_team/600x400-logos/600x400_Grabyo.b33ab3481de918e7a8c591d64a9d24dfc174dd16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid gray;
+}
+/* footer */
+#footer{
+    height: 440px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.Talktousbox{
+    height: inherit;
+    width: 41%;
+    /* background: seagreen; */
+    position: relative;
+}
+.one{
+    height: 271px;
+    width: 438px;
+    border: 2px solid gray;
+    position: absolute;
+    top: 100px;
+    left: 64px;
+    box-sizing: border-box;
+    padding: 34px;
+}
+.two{
+    height: 271px;
+    width: 438px;
+    border: 2px solid gray;
+    position: absolute;
+    top: 90px;
+    left: 54px;
+    box-sizing: border-box;
+}
+.Talktous{
+    color: rgb(75, 75, 154);
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding-bottom: 17px;
+}
+.text3{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formbox{
+    height: inherit;
+    width: 40%;
+    /* background: darksalmon; */
+    box-sizing: border-box;
+    padding: 98px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    color: gray;
+}
+input[type="text"] {
+    width: 67%;
+}
+
+button {
+    background-color: whitesmoke;
+    color: gray;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 19px 0 0 165px;
+}
