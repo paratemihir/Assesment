@@ -1,0 +1,30 @@
+2024-11-06 16:19:38,622  
+Added new stock: 
+Fruit Name : apple
+ Quantity : 40 
+ Price : 50.0.
+
+2024-11-06 16:19:46,121  
+Added new stock: 
+Fruit Name : mango
+ Quantity : 50 
+ Price : 90.0.
+
+2024-11-06 16:19:54,422  
+Updated Stock : 
+Fruit Name : apple 
+ New Quantity : 100
+ New Price 500.0.
+
+2024-11-06 16:19:59,764  
+View fruit stocks.
+
+2024-11-06 16:19:59,764  Customer viewed available fruits.
+
+2024-11-06 16:20:08,160  Customer Exit the Fruit Market application.
+
+2024-11-06 16:21:26,145  
+Added new stock: 
+Fruit Name : black berry
+ Quantity : 40 
+ Price : 50.0.
